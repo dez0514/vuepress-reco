@@ -12,13 +12,9 @@ customModule:
   heroImage: '/home.png'
   buttons:
     - { text: 转竹林深处 →, link: '/blogs/javascript/' }
-
 blog:
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/dez0514' }
-isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
+    - { icon: 'LogoGithub',text: github, link: 'https://github.com/dez0514' }
 ---
 
 <!-- ## 快速开始

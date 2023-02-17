@@ -29,7 +29,8 @@ export default defineUserConfig({
       "/blogs/Vue/vue-router/": ["README.md"],
       "/blogs/React/": ["README.md"],
       "/blogs/webpack/": ["README.md"],
-      "/blogs/nodejs/": ["README.md"]
+      "/blogs/nodejs/": ["README.md"],
+      "/blogs/other/interview/": ["README.md"]
     },
     navbar: [
       // { text: "分类", link: "/categories/reco/1/" },
@@ -57,7 +58,7 @@ export default defineUserConfig({
       body: [
         {
           type: "text",
-          content: `🎉🎉🎉 reco 主题 2.x 尝鲜。`,
+          content: `🎉🎉🎉 vuepress-reco 主题 2.x 尝鲜。没玩过这种配置的玩意，开始还是有点费劲的，文档比较简洁，大胆尝试吧，用来记笔记还不错的。`,
           style: "font-size: 12px;",
         },
         {
@@ -83,11 +84,11 @@ export default defineUserConfig({
           children: [
             {
               text: "留言",
-              link: "/docs/theme-reco/message.html",
+              link: "/docs/message",
             },
           ],
         },
-      ],
+      ]
     },
     // valineConfig 配置与 1.x 一致
     // valineConfig: {
@@ -99,6 +100,21 @@ export default defineUserConfig({
     //   recordIP: true,
     //   // hideComments: true // 隐藏评论
     // },
+    //评论
+    commentConfig: {
+      type: 'valine',
+      options: {
+        appId: 'xxx', // your appId
+        appKey: 'xxx', // your appKey
+        placeholder: '理性留言...',
+        serverURLs: '',// https://kiqrtssv.lc-cn-n1-shared.com // 该配置适用于国内自定义域名用户, 海外版本会自动检测(无需手动填写) 
+        visitor: true,//文章访问量统计。
+        enableQQ: true,// 阅读量统计
+        avatar: 'robohash',//头像
+        recordIP: true,//是否记录评论者IP
+        hideComments: false, // 全局隐藏评论，默认 false
+      },
+    },
   }),
   // debug: true,
 });
