@@ -8,10 +8,10 @@ modules:
 customModule:
   bgImage: '/bg.svg'
   heroText: 南山忆
-  tagline: 独来月下萤火，照亮一纸寂寞。 
-  heroImage: '/home.jpg'
+  tagline: 独揽月下萤火，照亮一纸寂寞。 
+  heroImage: '/home.png'
   buttons:
-    - { text: 转竹林深处 →, link: '/docs/guide/introduce' }
+    - { text: 转竹林深处 →, link: '/blogs/javascript/' }
 
 blog:
   socialLinks:

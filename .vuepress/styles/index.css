@@ -9,3 +9,13 @@
 .navbar-container .navbar-links-wrapper .search-box input {
   border-radius: 1rem!important;
 }
+
+.series-container .site-brand {
+  align-items: center;
+}
+.series-container .site-brand .logo {
+  border-radius: 50%!important;
+}
+.series-container .navbar-links-wrapper .search-box input {
+  border-radius: 1rem!important;
+}

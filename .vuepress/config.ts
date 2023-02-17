@@ -4,7 +4,7 @@ import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
   title: "前端笔记",
-  description: "记录学习，记录日常",
+  description: "Just go ahead",
   head: [
     ['link', { rel: 'icon', href: '/basketball.png' }]
   ],
@@ -15,36 +15,41 @@ export default defineUserConfig({
     authorAvatar: "/head.png",
     docsRepo: "https://github.com/dez0514",
     docsBranch: "main",
-    docsDir: "example",
+    docsDir: "",
     lastUpdatedText: "最后更新时间",
     catalogTitle: '此页内容',
     // series 为原 sidebar
     series: {
       "/blogs/javascript/": [
-        'readme',
+        'README.md', // 默认模块首页
         'ES6',
         'EventLoop'
       ],
-      // "/docs/theme-reco/": [
-      //   {
-      //     text: "module one",
-      //     children: ["home", "theme"],
-      //   },
-      //   {
-      //     text: "module two",
-      //     children: ["api", "plugin"],
-      //   },
-      // ],
+      "/blogs/Vue/vuex/": ["README.md"],
+      "/blogs/Vue/vue-router/": ["README.md"],
+      "/blogs/React/": ["README.md"],
+      "/blogs/webpack/": ["README.md"],
+      "/blogs/nodejs/": ["README.md"]
     },
     navbar: [
-      { text: "javascript", link: "/blogs/javascript/ES6" },
-      { text: "分类", link: "/categories/reco/1/" },
-      { text: "标签", link: "/tags/tag1/1/" },
+      // { text: "分类", link: "/categories/reco/1/" },
+      // { text: "标签", link: "/tags/tag1/1/" },
+      { text: "javascript", link: "/blogs/javascript/" },
+      {
+        text: "Vue",
+        children: [
+          { text: "vue-router", link: "/blogs/Vue/vue-router/" },
+          { text: "vuex", link: "/blogs/Vue/vuex/" }
+        ],
+      },
+      { text: "React", link: "/blogs/React/" },
+      { text: "webpack", link: "/blogs/webpack/" },
+      { text: "nodejs", link: "/blogs/nodejs/" },
       {
         text: "其他",
         children: [
-          { text: "vuepress-reco", link: "/docs/theme-reco/theme" },
-          { text: "vuepress-theme-reco", link: "/blogs/other/guide" },
+          { text: "github", link: "https://github.com/dez0514" },
+          { text: "面试题", link: "/blogs/other/interview/" },
         ],
       },
     ],
