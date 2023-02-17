@@ -1,0 +1,11 @@
+/* @import url('@vuepress-reco/tailwindcss-config/lib/client/tailwindcss-base.css'); */
+/* header reset style */
+.navbar-container .site-brand {
+  align-items: center;
+}
+.navbar-container .site-brand .logo {
+  border-radius: 50%!important;
+}
+.navbar-container .navbar-links-wrapper .search-box input {
+  border-radius: 1rem!important;
+}
