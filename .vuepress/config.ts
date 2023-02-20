@@ -104,10 +104,10 @@ export default defineUserConfig({
     commentConfig: {
       type: 'valine',
       options: {
-        appId: 'xxx', // your appId
-        appKey: 'xxx', // your appKey
+        appId: '3zvBHCvTKGB4NsZzdO2KPjxZ-gzGzoHsz', // your appId
+        appKey: 'jJdDQNq2XsDIKjCDlwo4JY6K', // your appKey
         placeholder: '理性留言...',
-        serverURLs: '',// https://kiqrtssv.lc-cn-n1-shared.com // 该配置适用于国内自定义域名用户, 海外版本会自动检测(无需手动填写) 
+        serverURLs: 'https://3zvbhcvt.lc-cn-n1-shared.com',// https://kiqrtssv.lc-cn-n1-shared.com // 该配置适用于国内自定义域名用户, 海外版本会自动检测(无需手动填写) 
         visitor: true,//文章访问量统计。
         enableQQ: true,// 阅读量统计
         avatar: 'robohash',//头像
