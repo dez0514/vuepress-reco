@@ -85,7 +85,7 @@ export default defineUserConfig({
           children: [
             {
               text: "留言",
-              link: "/docs/message",
+              link: "/vuepress-reco/docs/message",
             },
           ],
         },
