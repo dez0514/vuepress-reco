@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-c8ff9aa6","path":"/docs/message.html","title":"留言","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1676958480000,"updatedTime":1676958480000,"contributors":[{"name":"zhangwd24","email":"2573433803@qq.com","commits":1}]},"filePathRelative":"docs/message.md"}');export{e as data};
