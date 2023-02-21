@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-45ea453d","path":"/blogs/Vue/vuex/","title":"vuex状态管理","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1676958143000,"updatedTime":1676958143000,"contributors":[{"name":"zhangwd24","email":"2573433803@qq.com","commits":1}]},"filePathRelative":"blogs/Vue/vuex/README.md"}');export{e as data};
