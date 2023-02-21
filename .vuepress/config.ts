@@ -3,6 +3,7 @@ import { defineUserConfig } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 
 export default defineUserConfig({
+  base: '/vuepress-reco/',
   title: "前端笔记",
   description: "Just go ahead",
   head: [
