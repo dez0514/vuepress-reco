@@ -11,7 +11,7 @@ customModule:
   tagline: 独揽月下萤火，照亮一纸寂寞。 
   heroImage: '/home.png'
   buttons:
-    - { text: 转竹林深处 →, link: '/blogs/javascript/' }
+    - { text: 转竹林深处 →, link: '/vuepress-reco/blogs/javascript/' }
 blog:
   socialLinks:
     - { icon: 'LogoGithub',text: github, link: 'https://github.com/dez0514' }
