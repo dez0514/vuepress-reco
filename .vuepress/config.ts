@@ -7,7 +7,8 @@ export default defineUserConfig({
   title: "前端笔记",
   description: "Just go ahead",
   head: [
-    ['link', { rel: 'icon', href: '/basketball.png' }]
+    ['link', { rel: 'icon', href: '/basketball.png' }],
+    ['meta', {name: 'viewport',content: 'width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no;'}]
   ],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -24,14 +25,15 @@ export default defineUserConfig({
       "/blogs/javascript/": [
         'README.md', // 默认模块首页
         'ES6',
-        'EventLoop'
+        // 'EventLoop'
       ],
       "/blogs/Vue/vuex/": ["README.md"],
       "/blogs/Vue/vue-router/": ["README.md"],
-      "/blogs/React/": ["README.md"],
-      "/blogs/webpack/": ["README.md"],
-      "/blogs/nodejs/": ["README.md"],
-      "/blogs/other/interview/": ["README.md"]
+      "/blogs/Vue/vue3/": ["README.md"],
+      // "/blogs/React/": ["README.md"],
+      // "/blogs/webpack/": ["README.md"],
+      // "/blogs/nodejs/": ["README.md"],
+      // "/blogs/other/interview/": ["README.md"]
     },
     navbar: [
       // { text: "分类", link: "/categories/reco/1/" },
@@ -41,19 +43,20 @@ export default defineUserConfig({
         text: "Vue",
         children: [
           { text: "vue-router", link: "/blogs/Vue/vue-router/" },
-          { text: "vuex", link: "/blogs/Vue/vuex/" }
+          { text: "vuex", link: "/blogs/Vue/vuex/" },
+          { text: "vue3学习", link: "/blogs/Vue/vue3/" }
         ],
       },
-      { text: "React", link: "/blogs/React/" },
-      { text: "webpack", link: "/blogs/webpack/" },
-      { text: "nodejs", link: "/blogs/nodejs/" },
-      {
-        text: "其他",
-        children: [
-          { text: "github", link: "https://github.com/dez0514" },
-          { text: "面试题", link: "/blogs/other/interview/" },
-        ],
-      },
+      // { text: "React", link: "/blogs/React/" },
+      // { text: "webpack", link: "/blogs/webpack/" },
+      // { text: "nodejs", link: "/blogs/nodejs/" },
+      // {
+      //   text: "其他",
+      //   children: [
+      //     { text: "github", link: "https://github.com/dez0514" },
+      //     { text: "面试题", link: "/blogs/other/interview/" },
+      //   ],
+      // },
     ],
     bulletin: {
       body: [
