@@ -25,11 +25,14 @@ export default defineUserConfig({
       "/blogs/javascript/": [
         'README.md', // 默认模块首页
         'ES6',
-        // 'EventLoop'
+        'EventLoop'
       ],
       "/blogs/Vue/vuex/": ["README.md"],
       "/blogs/Vue/vue-router/": ["README.md"],
       "/blogs/Vue/vue3/": ["README.md"],
+      "/blogs/engineering/npmlink/": ["README.md"],
+      "/blogs/engineering/cli/": ["README.md"],
+      "/blogs/engineering/webpack/": ["README.md"],
       // "/blogs/React/": ["README.md"],
       // "/blogs/webpack/": ["README.md"],
       // "/blogs/nodejs/": ["README.md"],
@@ -42,13 +45,20 @@ export default defineUserConfig({
       {
         text: "Vue",
         children: [
-          { text: "vue-router", link: "/blogs/Vue/vue-router/" },
-          { text: "vuex", link: "/blogs/Vue/vuex/" },
+          // { text: "vue-router", link: "/blogs/Vue/vue-router/" },
+          // { text: "vuex", link: "/blogs/Vue/vuex/" },
           { text: "vue3学习", link: "/blogs/Vue/vue3/" }
         ],
       },
+      {
+        text: "工程化",
+        children: [
+          { text: "npm-link", link: "/blogs/engineering/npmlink/" },
+          { text: "cli", link: "/blogs/engineering/cli/" },
+          // { text: "webpack", link: "/blogs/engineering/webpack/" },
+        ],
+      },
       // { text: "React", link: "/blogs/React/" },
-      // { text: "webpack", link: "/blogs/webpack/" },
       // { text: "nodejs", link: "/blogs/nodejs/" },
       // {
       //   text: "其他",
