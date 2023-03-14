@@ -1,4 +1,4 @@
-# npm-link
+# npm-link 软链接
 
 ## 作用
 
