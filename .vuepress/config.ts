@@ -56,7 +56,7 @@ export default defineUserConfig({
         children: [
           { text: "npm-link", link: "/blogs/engineering/npmlink/" },
           { text: "cli", link: "/blogs/engineering/cli/" },
-          { text: "静态部署github.io", link: "/blogs/engineering/cli/" },
+          { text: "静态部署github.io", link: "/blogs/engineering/githubIo/" },
           // { text: "webpack", link: "/blogs/engineering/webpack/" },
         ],
       },
