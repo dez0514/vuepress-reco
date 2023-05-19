@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0c8d71d5","path":"/blogs/engineering/webpack/","title":"webpack","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1684465059000,"updatedTime":1684465059000,"contributors":[{"name":"zhangwd24","email":"2573433803@qq.com","commits":1}]},"filePathRelative":"blogs/engineering/webpack/README.md"}');export{e as data};
