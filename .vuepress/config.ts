@@ -32,6 +32,7 @@ export default defineUserConfig({
       "/blogs/Vue/vue3/": ["README.md"],
       "/blogs/engineering/npmlink/": ["README.md"],
       "/blogs/engineering/cli/": ["README.md"],
+      "/blogs/engineering/githubIo/": ["README.md"],
       "/blogs/engineering/webpack/": ["README.md"],
       // "/blogs/React/": ["README.md"],
       // "/blogs/webpack/": ["README.md"],
@@ -55,6 +56,7 @@ export default defineUserConfig({
         children: [
           { text: "npm-link", link: "/blogs/engineering/npmlink/" },
           { text: "cli", link: "/blogs/engineering/cli/" },
+          { text: "静态部署github.io", link: "/blogs/engineering/cli/" },
           // { text: "webpack", link: "/blogs/engineering/webpack/" },
         ],
       },
