@@ -75,3 +75,16 @@ npm link test-script
 执行 `npm update test-script -g` 更新全局模式的test-script，所有link过去的项目同时更新了。
 
 注意：`npm install -g` 只是安装到全局目录了，只是命令行可以使用，每个项目还是需要将包引用到node_modules才能require使用，所以还是需要每个项目都 `npm link`
+
+
+## windows 创建软链接： mklink [/d] Link Target
+[参考](https://www.python100.com/html/RNK6V2X9H578.html)
+tip: `/d` 表示软链目录，默认为文件。`Link` 指定新的符号链接名称（会在使用的地方创建）。`Target` 指定新链接引用的路径。
+例如：在 `D:works_space/packages` 里封装了一个组件叫 `system`
+在 `works` 的项目的 `node_modules` 中使用。
+1. cmd 进入需要使用的地方 `node_modules`。
+2. 执行 `mklink /d system D:works_space\packages\system`
+
+![](/engineer/mklink.png)
+
+
