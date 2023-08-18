@@ -1,1 +1,0 @@
-import{_ as e,p as s,q as t,s as _}from"./framework-4a7f5a2b.js";const c={},o=_("p",null,"This is ES6",-1),n=[o];function r(a,l){return s(),t("div",null,n)}const d=e(c,[["render",r],["__file","ES6.html.vue"]]);export{d as default};

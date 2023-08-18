@@ -1,1 +1,0 @@
-import{_ as e,p as o,q as t,s}from"./framework-4a7f5a2b.js";const n={},_=s("p",null,"This is EventLoop",-1),c=[_];function r(a,l){return o(),t("div",null,c)}const p=e(n,[["render",r],["__file","EventLoop.html.vue"]]);export{p as default};
