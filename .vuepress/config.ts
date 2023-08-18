@@ -25,7 +25,9 @@ export default defineUserConfig({
       "/blogs/javascript/": [
         'README.md', // 默认模块首页
         'ES6',
-        'EventLoop'
+        'EventLoop',
+        'Promise',
+        'this'
       ],
       "/blogs/Vue/vuex/": ["README.md"],
       "/blogs/Vue/vue-router/": ["README.md"],
@@ -43,6 +45,7 @@ export default defineUserConfig({
       // { text: "分类", link: "/categories/reco/1/" },
       // { text: "标签", link: "/tags/tag1/1/" },
       { text: "javascript", link: "/blogs/javascript/" },
+      { text: "React", link: "/blogs/React/" },
       {
         text: "Vue",
         children: [
@@ -51,13 +54,14 @@ export default defineUserConfig({
           { text: "vue3学习", link: "/blogs/Vue/vue3/" }
         ],
       },
+      { text: "网络", link: "/blogs/network/" },
       {
         text: "工程化",
         children: [
           { text: "npm-link", link: "/blogs/engineering/npmlink/" },
           { text: "cli", link: "/blogs/engineering/cli/" },
           { text: "静态部署github.io", link: "/blogs/engineering/githubIo/" },
-          // { text: "webpack", link: "/blogs/engineering/webpack/" },
+          { text: "webpack", link: "/blogs/engineering/webpack/" },
         ],
       },
       // { text: "React", link: "/blogs/React/" },
@@ -74,7 +78,7 @@ export default defineUserConfig({
       body: [
         {
           type: "text",
-          content: `🎉🎉🎉 vuepress-reco 主题 2.x 尝鲜。没玩过这种配置的玩意，开始还是有点费劲的，文档比较简洁，大胆尝试吧，用来记笔记还不错的。`,
+          content: `🎉🎉🎉 加油吧，小切图娃。`,
           style: "font-size: 12px;",
         },
         {
@@ -89,6 +93,8 @@ export default defineUserConfig({
           content: `
           <ul>
             <li><a style="color: #4954e6" href="https://github.com/dez0514">github<a/></li>
+            <li><a style="color: #4954e6" href="https://dez0514.github.io/vite-react-admin/" >React Antd Admin</a></li>
+            <li><a style="color: #4954e6" href="https://dez0514.github.io/vite-vue-admin/" >Vue3 ElementPlus Admin</a></li>
           </ul>`,
           style: "font-size: 12px;",
         },

@@ -7,9 +7,9 @@ date: 2023/02/16
 
 - ES6
 - 事件循环
-<!-- - js模块化
 - Promise
-- this指针-闭包-作用域
+- this
+<!-- - js模块化
 - 面向对象及原型和原型链
 - BOM
 - jsBridge -->
