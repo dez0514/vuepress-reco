@@ -51,6 +51,7 @@ export default defineUserConfig({
         children: [
           // { text: "vue-router", link: "/blogs/Vue/vue-router/" },
           // { text: "vuex", link: "/blogs/Vue/vuex/" },
+          { text: "vue2", link: "/blogs/Vue/vue2/" },
           { text: "vue3学习", link: "/blogs/Vue/vue3/" }
         ],
       },
